@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		AA480FAF2B0EEF87009E6E7B /* ExamenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FAE2B0EEF87009E6E7B /* ExamenApp.swift */; };
 		AA480FB12B0EEF87009E6E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FB02B0EEF87009E6E7B /* ContentView.swift */; };
-		AA480FB32B0EEF87009E6E7B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FB22B0EEF87009E6E7B /* Item.swift */; };
 		AA480FB52B0EEF89009E6E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA480FB42B0EEF89009E6E7B /* Assets.xcassets */; };
 		AA480FB82B0EEF89009E6E7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA480FB72B0EEF89009E6E7B /* Preview Assets.xcassets */; };
 		AA480FC22B0EEF89009E6E7B /* ExamenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FC12B0EEF89009E6E7B /* ExamenTests.swift */; };
 		AA480FCC2B0EEF89009E6E7B /* ExamenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FCB2B0EEF89009E6E7B /* ExamenUITests.swift */; };
 		AA480FCE2B0EEF89009E6E7B /* ExamenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FCD2B0EEF89009E6E7B /* ExamenUITestsLaunchTests.swift */; };
+		AA480FDC2B0EEFE8009E6E7B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AA480FDB2B0EEFE8009E6E7B /* SDWebImageSwiftUI */; };
+		AA480FDF2B0EEFF4009E6E7B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AA480FDE2B0EEFF4009E6E7B /* Alamofire */; };
+		AA480FE22B0EF007009E6E7B /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = AA480FE12B0EF007009E6E7B /* FlowStacks */; };
+		AA480FF02B0EF39A009E6E7B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FEF2B0EF39A009E6E7B /* ContentViewModel.swift */; };
+		AA480FF22B0EF3BF009E6E7B /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FF12B0EF3BF009E6E7B /* ContentModel.swift */; };
+		AA480FF42B0EF3F8009E6E7B /* NetworkAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FF32B0EF3F8009E6E7B /* NetworkAPIService.swift */; };
+		AA480FF62B0EF468009E6E7B /* ContentRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FF52B0EF468009E6E7B /* ContentRequirement.swift */; };
+		AA480FF82B0EF48B009E6E7B /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FF72B0EF48B009E6E7B /* ContentRepository.swift */; };
+		AA480FFC2B0EF861009E6E7B /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FFB2B0EF861009E6E7B /* Component.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		AA480FAB2B0EEF87009E6E7B /* Examen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA480FAE2B0EEF87009E6E7B /* ExamenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenApp.swift; sourceTree = "<group>"; };
 		AA480FB02B0EEF87009E6E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA480FB22B0EEF87009E6E7B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AA480FB42B0EEF89009E6E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA480FB72B0EEF89009E6E7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA480FBD2B0EEF89009E6E7B /* ExamenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +53,12 @@
 		AA480FC72B0EEF89009E6E7B /* ExamenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA480FCB2B0EEF89009E6E7B /* ExamenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenUITests.swift; sourceTree = "<group>"; };
 		AA480FCD2B0EEF89009E6E7B /* ExamenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA480FEF2B0EF39A009E6E7B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		AA480FF12B0EF3BF009E6E7B /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		AA480FF32B0EF3F8009E6E7B /* NetworkAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIService.swift; sourceTree = "<group>"; };
+		AA480FF52B0EF468009E6E7B /* ContentRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRequirement.swift; sourceTree = "<group>"; };
+		AA480FF72B0EF48B009E6E7B /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
+		AA480FFB2B0EF861009E6E7B /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA480FDC2B0EEFE8009E6E7B /* SDWebImageSwiftUI in Frameworks */,
+				AA480FDF2B0EEFF4009E6E7B /* Alamofire in Frameworks */,
+				AA480FE22B0EF007009E6E7B /* FlowStacks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +112,10 @@
 		AA480FAD2B0EEF87009E6E7B /* Examen */ = {
 			isa = PBXGroup;
 			children = (
+				AA480FE52B0EF090009E6E7B /* Framework */,
+				AA480FE42B0EF087009E6E7B /* Domain */,
+				AA480FE32B0EF023009E6E7B /* Data */,
 				AA480FAE2B0EEF87009E6E7B /* ExamenApp.swift */,
-				AA480FB02B0EEF87009E6E7B /* ContentView.swift */,
-				AA480FB22B0EEF87009E6E7B /* Item.swift */,
 				AA480FB42B0EEF89009E6E7B /* Assets.xcassets */,
 				AA480FB62B0EEF89009E6E7B /* Preview Content */,
 			);
@@ -130,6 +147,74 @@
 			path = ExamenUITests;
 			sourceTree = "<group>";
 		};
+		AA480FE32B0EF023009E6E7B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FE92B0EF0C8009E6E7B /* Models */,
+				AA480FEA2B0EF0D0009E6E7B /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AA480FE42B0EF087009E6E7B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FF52B0EF468009E6E7B /* ContentRequirement.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AA480FE52B0EF090009E6E7B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FEC2B0EF1D4009E6E7B /* Views */,
+				AA480FE62B0EF0A1009E6E7B /* ViewModels */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		AA480FE62B0EF0A1009E6E7B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FEF2B0EF39A009E6E7B /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA480FE92B0EF0C8009E6E7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FEB2B0EF0F7009E6E7B /* Network */,
+				AA480FF12B0EF3BF009E6E7B /* ContentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA480FEA2B0EF0D0009E6E7B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FF72B0EF48B009E6E7B /* ContentRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		AA480FEB2B0EF0F7009E6E7B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FF32B0EF3F8009E6E7B /* NetworkAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AA480FEC2B0EF1D4009E6E7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA480FB02B0EEF87009E6E7B /* ContentView.swift */,
+				AA480FFB2B0EF861009E6E7B /* Component.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +231,11 @@
 			dependencies = (
 			);
 			name = Examen;
+			packageProductDependencies = (
+				AA480FDB2B0EEFE8009E6E7B /* SDWebImageSwiftUI */,
+				AA480FDE2B0EEFF4009E6E7B /* Alamofire */,
+				AA480FE12B0EF007009E6E7B /* FlowStacks */,
+			);
 			productName = Examen;
 			productReference = AA480FAB2B0EEF87009E6E7B /* Examen.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +308,11 @@
 				Base,
 			);
 			mainGroup = AA480FA22B0EEF86009E6E7B;
+			packageReferences = (
+				AA480FDA2B0EEFE8009E6E7B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				AA480FDD2B0EEFF4009E6E7B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AA480FE02B0EF007009E6E7B /* XCRemoteSwiftPackageReference "FlowStacks" */,
+			);
 			productRefGroup = AA480FAC2B0EEF87009E6E7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +355,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA480FF02B0EF39A009E6E7B /* ContentViewModel.swift in Sources */,
+				AA480FF62B0EF468009E6E7B /* ContentRequirement.swift in Sources */,
 				AA480FB12B0EEF87009E6E7B /* ContentView.swift in Sources */,
-				AA480FB32B0EEF87009E6E7B /* Item.swift in Sources */,
+				AA480FF22B0EF3BF009E6E7B /* ContentModel.swift in Sources */,
+				AA480FF42B0EF3F8009E6E7B /* NetworkAPIService.swift in Sources */,
+				AA480FFC2B0EF861009E6E7B /* Component.swift in Sources */,
 				AA480FAF2B0EEF87009E6E7B /* ExamenApp.swift in Sources */,
+				AA480FF82B0EF48B009E6E7B /* ContentRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +526,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Examen/Preview Content\"";
-				DEVELOPMENT_TEAM = YKRP485BCC;
+				DEVELOPMENT_TEAM = NVF22WSP9D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -439,7 +539,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Examen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Examen1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -455,7 +555,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Examen/Preview Content\"";
-				DEVELOPMENT_TEAM = YKRP485BCC;
+				DEVELOPMENT_TEAM = NVF22WSP9D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -468,7 +568,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Examen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Examen1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -592,6 +692,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA480FDA2B0EEFE8009E6E7B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.4;
+			};
+		};
+		AA480FDD2B0EEFF4009E6E7B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		AA480FE02B0EF007009E6E7B /* XCRemoteSwiftPackageReference "FlowStacks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/FlowStacks";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA480FDB2B0EEFE8009E6E7B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA480FDA2B0EEFE8009E6E7B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		AA480FDE2B0EEFF4009E6E7B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA480FDD2B0EEFF4009E6E7B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AA480FE12B0EF007009E6E7B /* FlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA480FE02B0EF007009E6E7B /* XCRemoteSwiftPackageReference "FlowStacks" */;
+			productName = FlowStacks;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA480FA32B0EEF86009E6E7B /* Project object */;
 }
