@@ -23,10 +23,10 @@ class NetworkAPIService {
             switch response.result {
             case let .success(data):
                 do {
-                    print("Datos recibidos: \(data)")
+                    
                     return try JSONDecoder().decode([CountryData].self, from: data)
                 } catch {
-                    print("Error al decodificar: \(error)")
+                    
                     return nil
                 }
             case let .failure(error):
