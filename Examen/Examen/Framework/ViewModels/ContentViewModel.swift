@@ -49,7 +49,7 @@ class ContentViewModel: ObservableObject {
             self.contentList = result.flatMap { countryData in
                         countryData.cases.map { $0.value }
                     }
-                    print("Lista de casos procesados: \(self.contentList)")
+                    
                 } else {
                     print("No se recibieron datos o hubo un error en la solicitud")
         }

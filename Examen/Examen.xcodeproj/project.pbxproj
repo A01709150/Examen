@@ -23,6 +23,7 @@
 		AA480FF62B0EF468009E6E7B /* ContentRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FF52B0EF468009E6E7B /* ContentRequirement.swift */; };
 		AA480FF82B0EF48B009E6E7B /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FF72B0EF48B009E6E7B /* ContentRepository.swift */; };
 		AA480FFC2B0EF861009E6E7B /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA480FFB2B0EF861009E6E7B /* Component.swift */; };
+		AA4810012B0FE3DE009E6E7B /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = AA4810002B0FE3DE009E6E7B /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA480FDC2B0EEFE8009E6E7B /* SDWebImageSwiftUI in Frameworks */,
+				AA4810012B0FE3DE009E6E7B /* SwiftUICharts in Frameworks */,
 				AA480FDF2B0EEFF4009E6E7B /* Alamofire in Frameworks */,
 				AA480FE22B0EF007009E6E7B /* FlowStacks in Frameworks */,
 			);
@@ -235,6 +237,7 @@
 				AA480FDB2B0EEFE8009E6E7B /* SDWebImageSwiftUI */,
 				AA480FDE2B0EEFF4009E6E7B /* Alamofire */,
 				AA480FE12B0EF007009E6E7B /* FlowStacks */,
+				AA4810002B0FE3DE009E6E7B /* SwiftUICharts */,
 			);
 			productName = Examen;
 			productReference = AA480FAB2B0EEF87009E6E7B /* Examen.app */;
@@ -312,6 +315,7 @@
 				AA480FDA2B0EEFE8009E6E7B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				AA480FDD2B0EEFF4009E6E7B /* XCRemoteSwiftPackageReference "Alamofire" */,
 				AA480FE02B0EF007009E6E7B /* XCRemoteSwiftPackageReference "FlowStacks" */,
+				AA480FFF2B0FE3DD009E6E7B /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
 			);
 			productRefGroup = AA480FAC2B0EEF87009E6E7B /* Products */;
 			projectDirPath = "";
@@ -718,6 +722,14 @@
 				minimumVersion = 0.3.6;
 			};
 		};
+		AA480FFF2B0FE3DD009E6E7B /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -735,6 +747,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AA480FE02B0EF007009E6E7B /* XCRemoteSwiftPackageReference "FlowStacks" */;
 			productName = FlowStacks;
+		};
+		AA4810002B0FE3DE009E6E7B /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA480FFF2B0FE3DD009E6E7B /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

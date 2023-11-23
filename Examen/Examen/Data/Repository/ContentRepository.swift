@@ -36,9 +36,9 @@ class ContentRepository: ContentAPIProtocol {
     
     func getContentList() async -> [CountryData]? {
             let urlString = "\(Api.base)\(Api.route.country)\(Api.route.api_key)"
-            print("URL formada: \(urlString)")
+            
             guard let url = URL(string: urlString) else {
-                print("URL inválida")
+                
                 return nil
             }
             return await n_service.getCountry(url: url)

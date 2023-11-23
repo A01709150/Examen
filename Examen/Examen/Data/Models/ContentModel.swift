@@ -13,21 +13,9 @@ struct CountryData: Codable {
     var cases: [String: CaseData]
 }
 
-struct CaseData: Codable {
+struct CaseData: Codable, Hashable {
     var total: Int
     var new: Int
 }
 
-
-//struct Country : Codable {
-//    var country : String
-//    var region : String
-//    var cases: [Content]
-//}
-//
-//struct Content : Codable{
-//    var date: Date
-//    var total: Int
-//    var new: Int
-//}
 

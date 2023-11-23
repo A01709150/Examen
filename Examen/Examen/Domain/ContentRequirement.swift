@@ -21,7 +21,7 @@ class ContentRequirement: ContentRequirementProtocol{
     }
     
     func getContentList() async -> [CountryData]? {
-            print("Obteniendo lista de contenido desde ContentRequirement")
+            
             return await dataRepository.getContentList()
         }
 
